@@ -1,0 +1,107 @@
+img{
+    width:170px;
+}
+a{ 
+    text-decoration: none;
+    color:white;
+}
+.header{
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    justify-content: center;
+}
+.nav_title{
+    margin-top:10px;
+}
+.nav_items{
+    list-style: none;
+    display:flex;
+    padding:10px;
+}
+.nav_items li{
+    margin-left:30px;
+    margin-right:30px;
+}
+.nav_search{
+    display:flex;
+    margin-top:10px;
+}
+.nav_search .form-control{
+    background-color: rgb(230, 230, 230);
+    width:400px;   
+    height:27px;
+}
+.nav_sign{
+    list-style: none;
+    display:flex;
+    margin-top:10px;
+}
+.nav_sign li{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+
+.content{
+    background-color: rgb(241, 241, 241);
+    display:flex;
+    justify-content: center;
+}
+.content .con{
+    background-color: white;
+    width:75%;
+    display:flex;
+}
+.pl_title h1{
+    font-size:30px;
+    font-weight: bold;
+}
+.chart_name{
+    font-size:25px;
+}
+.chart_subname{
+    color:gray;
+    margin-bottom: 20px;
+}
+.pl{
+    width:880px;
+    padding:30px;
+
+}
+.pl_lists{
+    list-style: none;
+    display:flex;
+    margin-bottom: 40px;
+}
+.pl_lists div{
+    margin-right:30px;
+}
+.pl_lists .pl_name{
+    margin-top:3px;
+    font-size:12px;
+}
+.pl_lists .pl_detail{
+    font-size:11px;
+    color:gray;
+}
+
+
+
+.etc_con{
+    margin-top: 30px;
+    margin-left: 40px;
+    color:rgb(184, 184, 184);
+    font-size:11px;
+}
+.etc a{
+    color:rgb(184, 184, 184);
+
+}
+.etc_lang{
+    margin-left: 40px;
+    font-size:12px;
+}
+.etc_lang .etc_lang1{
+
+    color:skyblue;
+}
